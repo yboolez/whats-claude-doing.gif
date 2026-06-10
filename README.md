@@ -33,7 +33,7 @@ strings $(which claude) | grep -E "^[A-Z][a-z]+ing$" | sort -u
 | 装神弄鬼 | `Enchanting` `Manifesting` `Prestidigitating` |
 | 纯粹胡闹 | `Razzmatazzing` `Tomfoolering` `Boondoggling` |
 
-懒得挑？上面 24 个推荐词 + 3 个完成态 PNG 已经打包在 [`essentials/`](essentials/)，一次下完就够日常用。
+懒得挑？上面 24 个推荐词 + 3 个长得离谱的字典词（`Flibbertigibbeting` / `Hullaballooing` / `Whatchamacalliting`）+ 3 个完成态 PNG，**全部 240×60 微信表情包规格**已打包在 [`essentials/`](essentials/)，一次下完直接拖进微信收藏。
 
 想看全的：完整 161 词分类词汇表在 [`vocabulary.md`](vocabulary.md)。
 
@@ -67,6 +67,25 @@ stickers/whatchamacalliting.gif
 | `stickers/recap.png` | `※ recap:` |
 
 灰色字、静态 PNG、透明底，同样 920×140。
+
+---
+
+## 社媒发图专用 920×920 正方形，朋友圈 / 小红书直接用
+
+`social/` 文件夹是一组发社交媒体用的正方形：
+
+- **920×920 透明底**（朋友圈 / 小红书 / X 的卡片比例）
+- 字号沿用 920×140 原版（64px 词 + 84px 星号），内容垂直居中
+- 长完成态文本自动拆 2 行（如 `✻ Cooked for a whole / damn day`）
+
+精选的 9 个动词 + 1 个完成态：
+
+```
+flibbertigibbeting · hullaballooing · whatchamacalliting
+lollygagging · razzmatazzing · vibing
+manifesting · doodling · cogitating
+✻ Cooked for a whole damn day
+```
 
 ---
 
