@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.DS_Store
+_check_*.png
+_proof_*.png
+_compare.png
+alignment_check.png
+font_compare.png
