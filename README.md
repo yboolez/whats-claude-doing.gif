@@ -30,7 +30,7 @@ strings $(which claude) | grep -E "^[A-Z][a-z]+ing$" | sort -u
 | 加班破防 | `Churning` `Crunching` `Wrangling` |
 | 不想说话 | `Simmering` `Ebbing` `Misting` |
 | 大干一场 | `Catapulting` `Bootstrapping` `Forging` |
-| 装神弄鬼 | `Conjuring` `Manifesting` `Prestidigitating` |
+| 装神弄鬼 | `Enchanting` `Manifesting` `Prestidigitating` |
 | 纯粹胡闹 | `Razzmatazzing` `Tomfoolering` `Boondoggling` |
 
 完整词汇表（按语义分类）：[vocabulary.md](vocabulary.md)
@@ -40,6 +40,8 @@ strings $(which claude) | grep -E "^[A-Z][a-z]+ing$" | sort -u
 ## 下载 stickers/ 直接发，统一 920×140 字号不会乱跳
 
 161 个 GIF 全部在 [`stickers/`](stickers/) 目录，文件名就是词的小写。
+
+懒得挑？上面 8 类场景的 24 个推荐词 + 3 个完成态 PNG 已经打包在 [`essentials/`](essentials/)，一次下完就够日常用。
 
 ```
 stickers/pondering.gif
