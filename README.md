@@ -70,6 +70,19 @@ stickers/whatchamacalliting.gif
 
 ---
 
+## 微信表情包专用版 240×60，直接拖进收藏
+
+微信表情包对图片尺寸敏感——长矩形（920×140）导入后字会被缩很小。`wechat/` 文件夹是同样 161 个 GIF + 3 个完成态 PNG 的微信优化版：
+
+- **240×60 横版**（微信表情包单边上限 240，这个尺寸字号最大）
+- **字号统一 25px**（长词降到 24px + 字间距压缩，保持视觉一致）
+- **左对齐**，左侧边距 0
+- **4 阶橙色调色板假抗锯齿**（针对浅色聊天底色优化，深色模式会有微弱白边）
+
+直接下载 [`wechat/`](wechat/) 目录里的文件，加入微信表情收藏即可。
+
+---
+
 ## 一行命令出新词，自定义任何场景
 
 `gen.py` 就是一个 CLI。
@@ -86,6 +99,11 @@ python3 gen.py png "recap:" --star ※
 
 # 自定义路径
 python3 gen.py gif Vibing -o ~/Desktop/vibing.gif
+
+# 微信表情包版本 240×60
+python3 gen.py wx Pondering
+python3 gen.py wx "Cooked for 58s" --kind png
+python3 gen.py wx "recap:" --kind png --star ※
 ```
 
 依赖：`pip install Pillow numpy`。字体走 macOS 自带的 Menlo + Apple Symbols。
