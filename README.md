@@ -33,15 +33,15 @@ strings $(which claude) | grep -E "^[A-Z][a-z]+ing$" | sort -u
 | 装神弄鬼 | `Enchanting` `Manifesting` `Prestidigitating` |
 | 纯粹胡闹 | `Razzmatazzing` `Tomfoolering` `Boondoggling` |
 
-完整词汇表（按语义分类）：[vocabulary.md](vocabulary.md)
+懒得挑？上面 24 个推荐词 + 3 个完成态 PNG 已经打包在 [`essentials/`](essentials/)，一次下完就够日常用。
+
+想看全的：完整 161 词分类词汇表在 [`vocabulary.md`](vocabulary.md)。
 
 ---
 
 ## 下载 stickers/ 直接发，统一 920×140 字号不会乱跳
 
 161 个 GIF 全部在 [`stickers/`](stickers/) 目录，文件名就是词的小写。
-
-懒得挑？上面 8 类场景的 24 个推荐词 + 3 个完成态 PNG 已经打包在 [`essentials/`](essentials/)，一次下完就够日常用。
 
 ```
 stickers/pondering.gif
